@@ -1,27 +1,39 @@
 {
   "expo": {
-    "name": "bitirmeproje",
-    "slug": "bitirmeproje",
+    "name": "HizmetBulmaUygulamasi",
+    "slug": "HizmetBulmaUygulamasi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourdomain.hizmetbulma",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDRFAUfns66-3hWj7azwrGNj3lkAhULHBA"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "entryPoint": "./index.js"
   }
 }

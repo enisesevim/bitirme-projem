@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "72670831361",
+    "project_id": "cebimde-hizmet",
+    "storage_bucket": "cebimde-hizmet.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72670831361:android:ae58005799ac8ceb98f100",
+        "android_client_info": {
+          "package_name": "com.yourdomain.hizmetbulma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1oU49PgBdIgFxp2RXbuzZuZv3JhH_-ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
